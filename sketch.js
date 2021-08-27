@@ -52,10 +52,7 @@ function draw() {
     
     ground.velocityX = -(12);
   
-    if(keyDown("space") && mario.y >= 250) {
    
-      jumpSound.play();
-    }
   if(score>0 && score%10 === 0){
        checkPointSound.play() 
     }
