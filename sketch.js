@@ -74,7 +74,6 @@ function spawnbricks() {
     var brick = createSprite(600,120,40,10);
     brick.debug=true
     brick.y = Math.round(random(150,180));
-   //  brick.addImage(brickImage);
     brick.scale = 1;
     brick.velocityX = -3;
     
